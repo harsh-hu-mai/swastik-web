@@ -1,0 +1,203 @@
+.text-sucess{
+    color: greenyellow;
+}
+.text-warning{
+    color: rgb(255, 0, 0);
+}
+.first-section{
+     background: rgba(0, 0, 0, 0.7) url(img/bg.jpg);
+  background-size: cover;
+  background-position-x: 65%;
+  background-blend-mode: multiply;
+}
+.c-nav{
+    background: rgba(0, 0, 0, 0) url(img/3.jpg);
+    background-size: cover;
+    /* background-position-x: 85%; */
+    background-blend-mode: multiply;
+}
+.logo{
+    padding-left: 20px;
+    max-width: 40%;
+}
+.b1{
+    background: rgba(0, 0, 0, 0.7) url(img/1.jpg);
+    background-size: cover;
+    background-position-x: 65%;
+    background-blend-mode: multiply;
+    
+}
+
+ .card:hover{
+      text-shadow: none !important;
+      box-sizing: border-box !important;
+      cursor: pointer !important;
+      transition: all 0.3s ease !important;
+      -webkit-transform: scale(1.1) !important;
+      -ms-transform: scale(1.1) !important;
+      transform: scale(1.1) !important;
+      -webkit-box-shadow: 10px;
+      box-shadow: 10px;
+      z-index: 2;
+   }
+   .c:hover{
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    -webkit-box-shadow: 10px;
+    box-shadow: 10px;
+    z-index: 2;
+ }
+ .na-ic:hover{
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.5s ease-in-out !important;
+    -webkit-transform: rotate(270deg) !important;
+    -ms-transform: rotate(270deg) !important;
+    transform: rotate(270deg) !important;
+    -webkit-box-shadow: 10px;
+    box-shadow: 10px;
+    z-index: 2;
+ }
+ 
+ .g:hover{
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    -webkit-transform: scale(1.4) !important;
+    -ms-transform: scale(1.4) !important;
+    transform: scale(1.4) !important;
+    -webkit-box-shadow: 10px;
+    box-shadow: 10px;
+    z-index: 2;
+ }
+
+ .h:hover{
+     color: rgb(214, 163, 21);
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    -webkit-transform: scale(1.2) !important;
+    -ms-transform: scale(1.2) !important;
+    transform: scale(1.2) !important;
+    -webkit-box-shadow: 10px;
+    box-shadow: 10px;
+    z-index: 2;
+ }
+ .k:hover{
+    color: rgb(214, 163, 21) !important;
+   text-shadow: none !important;
+   box-sizing: border-box !important;
+   cursor: pointer !important;
+   transition: all 0.3s ease !important;
+
+}
+.b2{
+    background: rgba(0, 0, 0, 0.7) url(img/2.jpg);
+    background-size: cover;
+    background-position-x: 45%;
+    background-blend-mode: multiply;
+}
+.b3{
+    background: rgba(0, 0, 0, 0.7) url(img/3.jpg);
+    background-size: cover;
+    background-position-x: 45%;
+    background-blend-mode: multiply;
+}
+.b3{
+    background: rgba(0, 0, 0, 0.7) url(img/3.jpg);
+    background-size: cover;
+    background-position-x: 45%;
+    background-blend-mode: multiply;
+}
+.b4{
+    background: rgba(0, 0, 0, 0.7) url(img/3.jpg);
+    background-size: cover;
+    background-position-x: 45%;
+    background-blend-mode: multiply;
+}
+.b5{
+    background: rgba(0, 0, 0, 0.7) url(img/3.jpg);
+    background-size: cover;
+    background-position-x: 45%;
+    background-blend-mode: multiply;
+}
+.b6{
+    background: rgba(0, 0, 0, 0.7) url(img/3.jpg);
+    background-size: cover;
+    background-position-x: 45%;
+    background-blend-mode: multiply;
+}
+.b7{
+    background: rgba(0, 0, 0, 0.7) url(img/3.jpg);
+    background-size: cover;
+    background-position-x: 45%;
+    background-blend-mode: multiply;
+}
+.b8{
+    background: rgba(0, 0, 0, 0.7) url(img/3.jpg);
+    background-size: cover;
+    background-position-x: 45%;
+    background-blend-mode: multiply;
+}
+.bg-1{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+}
+a{
+    text-decoration: none;
+}
+.f1{
+    /* font-family: 'Dancing Script', cursive;
+ */
+ font-family: 'Lato', sans-serif;
+}
+.text-small{
+    font-size: 6px !important;
+}
+#map{
+    border-top-left-radius: 100px;
+ 
+}
+.map1{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+ 
+}
+.ig{
+    color: rgb(230, 19, 89);
+}
+.fos{
+    font-size: 7px;
+}
+
+.wrapper{
+    position:fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+    /* clip-path: circle(25px at calc(0% + 45px) 45px); */
+    clip-path: circle(25px at calc(100% - 45px) 45px);
+    transition: all 0.3s ease-in-out;
+}
+.td{
+text-decoration: none;
+color: inherit;
+}
+.td:hover{
+text-decoration: none;
+color: inherit;
+}
+
+

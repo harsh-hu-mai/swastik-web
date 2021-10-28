@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- <script src="js/m.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sanjay Dewangan Photography</title>
+
+    {{!-- custom css --}}
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark pu-3 c-nav ">
+        <div class="container-fluid">
+            <a class="navbar-brand f1 " href="#">
+                <span class="h6 g h  ">Sanjay Dewangan </span> <span class="h6 text-warning fs-6">Photography</span>
+                <!-- <img src="img/l.png" alt="" width="40" height="24" class="d-inline-block align-text-top"> -->
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon na-ic"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link k">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/gallery" class="nav-link  k">Photo Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link k ">Contact us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    
+    <!-- ABOUT -->
+    <section
+        class="bg-dark text-light p-5 text-center text-sm-start first-section has-bg-img bg-purple bg-blend-multiply">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-betweeen">
+                <div>
+                    <h1>I am <span class=" h text-warning h">Sanjay Dewangan</span></h1>
+                    <h6 class="my-2 h">I am a profesional photographer</h2>
+                        <a href="/contacts" class="btn btn-outline-warning btn-sm my-2 mx-1 c">
+                            <i class="bi bi-chevron-right"></i> Contact Us</a>
+                        <a href="/gallery" class="btn btn-outline-warning btn-sm my-2 mx-1 c">
+                            <i class="bi bi-chevron-right"></i>Photo Gallery</a>
+                        {{!-- <button class="btn btn-outline-warning btn-sm my-2 c" data-bs-toggle="modal"
+                            data-bs-target="/contacts">Contact us
+                        </button> --}}
+
+                </div>
+                <img class="image-fluid w-50 d-none d-sm-none logo" src="img/l.png" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!-- boxex -->
+    <section class="p-5">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md data-bs-spy="scroll"">
+                    <div class="card text-light bg-dark mb-3 b1 card">
+
+                       <a href="/gallery#prew" class="td">
+                           <div class="card-body text-center">
+                            <h5 class="card-title m-5">Pre Weding</h5>
+
+                        </div>
+                       </a> 
+                    </div>
+
+                </div>
+                <div class="col-md data-bs-spy="scroll"">
+                    <div class="card text-light bg-dark mb-3 b2">
+
+                        <a href="/gallery#weddings" class="td">
+                        <div class="card-body text-center">
+                            <h3 class="card-title m-5">Wedding</h5>
+                            {{!-- <a href="/gallery" class="card-title m-5 h3">
+                            wedding</a> --}}
+                        </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md data-bs-spy="scroll"">
+                    <div class="card text-light bg-dark mb-3 b3">
+                        <a href="/gallery#postw" class="td">
+                            
+                        <div class="card-body text-center">
+                            <h3 class="card-title m-5">Post Wedding</h5>
+
+                        </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col-md data-bs-spy="scroll"">
+                    <div class="card text-light bg-dark mb-3 b4">
+                        <a href="/gallery#candid" class="td">
+                            
+                        <div class="card-body text-center">
+                            <h3 class="card-title m-5">Candid</h5>
+
+                        </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col-md data-bs-spy="scroll"">
+                    <div class="card text-light bg-dark mb-3 b5">
+                        <a href="/gallery#portfolio" class="td">
+                            
+                        <div class="card-body text-center">
+                            <h3 class="card-title m-5">Portfolio</h5>
+
+                        </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col-md data-bs-spy="scroll"">
+                    <div class="card text-light bg-dark mb-3 b6">
+
+                        <a href="/gallery#bday" class="td">
+                            <div class="card-body text-center">
+                            <h3 class="card-title m-5">Birthday,Events</h5>
+
+                        </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md data-bs-spy="scroll"">
+                    <div class="card text-light bg-dark mb-3 b7">
+
+                        <a href="/gallery#io" class="td">
+                            <div class="card-body text-center">
+                            <h3 class="card-title m-5">Indoor and Outdoor Photoshoot</h5>
+
+                        </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md data-bs-spy="scroll"">
+                    <div class="card text-light bg-dark mb-3 b8">
+
+                        <a href="/gallery#babyshoot" class="td">
+                            <div class="card-body text-center">
+                            <h5 class="card-title m-5">Baby shoot</h5>
+
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us -->
+    <section class="p5 bg-dark text-light" id="about">
+        <div class="container">
+            <div class="row align-item-center justify-content-between">
+                <div class="col-md" id="img-fluid"></div>
+            </div>
+            <div class="col-md p-5">
+                <h2>About <span class="text-warning">US</span></h2>
+                <p class="my-3 ">
+                    <div class="n">
+                        Hi I am Sanjay Dewangan owner of Swastik Videos located in Bilaspur (C.G.) . I am a professional
+                    photographer and video editor. I am capturing moments since year 2008. i have learned photography
+                    art by my own. I love to shoot weddings for the sheer joy and beauty that surrounds every wedding. I
+                    try my best to Capture the candid moments of joy in a wedding.
+                    </div>
+
+                    <div class="n">
+                        I also love to take potraits, because i find stories in faces. Every individual faces tells a story
+                    and i like to capture them, but in a candid way , without telling them, so that they dont get shy of
+                    the camera.
+                    </div>
+
+                    <div class="n">
+                        We are incredibly blessed to have a team of best photographers who work with us on any given
+                    weekends. Please take a few minutes to get to know us.
+
+                    </div>
+                    <div class="n">
+                        We provide packages that fit in your budget and have a very effective price, because your happiness
+                    is more important than my money. Please feel free to contact us in order to avail any of our
+                    Photography related services. To make sure that you want a quick and genuine reply, please provide
+                    some hint that you understand and appreciate my work.
+
+                    </div>
+                   <div class="n">
+                        We would love to visit with you by phone or in person and talk about your wedding, event, portrait
+                    session or video project. Please reach out to us through the Contact Page
+                   </div>
+                </p>
+                <a href="#" class="btn btn-outline-warning mt-3">
+                    <i class="bi bi-chevron-right"></i> read more</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="p-5" id="contacts">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4 n">
+                        Contact Info
+                    </h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-items n">
+                            <span class="fw-bold">Main Location</span> Shop No. EF 8, Rajiv Plaza, Old Bus Stand,
+                            Bilaspur, Chhattisgarh
+                        </li>
+                        <li class="list-group-items n">
+                            <span class="fw-bold">Phone Number</span> +919827950511 +919752867494
+                        </li>
+                        <li class="list-group-items n">
+                            <span class="fw-bold">Email Adress</span> Swastikvideo85@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+    {{!-- map --}}
+    <section class="p-3 bg-dark" id="map">
+        <h2 class="text-center mt-3 fb text-light">
+                       Follow <span class="text-warning">
+                           Map
+                       </span>
+                    </h2>
+        <div class="container" id="map1">
+            <iframe class="container-fluid p-5 map1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.351021182558!2d82.1570287149018!3d22.074407585441335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a280b17e0f31d03%3A0xb9f376d352b9ebab!2sSwastik%20Video!5e0!3m2!1sen!2sin!4v1635253630079!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+    </section>
+    <!-- media -->
+    <section class="p-5 bg-dark" id="media">
+        <div class="containers">
+            
+                <h2 class="text-center mb-5 fb text-light">
+                       Social <span class="text-warning">
+                           Handels
+                       </span>
+                    </h2>
+            
+            
+            <div class=" d-flex align-item-center justify-content-between">
+
+                <div class="fb">
+                    <a href="https://www.facebook.com/swastikvideobsp">
+                        <i class="fab fa-facebook h1 g">
+                            <span class="h6 fos">Facebook</span>
+                        </i>
+                        </a>
+
+
+
+                </div>
+                <div class="  wp icon-green ">
+                    <a href="https://wa.me/+919827950511">
+                        <i class="fab fa-whatsapp text-sucess h1 g">
+                            <span class="h6 fos">Whatsapp</span>
+                        </i>
+
+                    </a>
+
+                </div>
+                <div class="  wp icon-green ">
+                    <a href="https://instagram.com/swastik_video_bilaspur?utm_medium=copy_link">
+                        <i class="fab fa-instagram text-sucess h1 g ig">
+                            <span class="h6 fos">Instagram</span>
+                        </i>
+
+                    </a>
+
+                </div>
+                <div class="  wp text-light ">
+                    <a href="https://www.youtube.com/channel/UC93aue-TlzERyrg3qpXxPhw/videos">
+                        <i class="fab fa-youtube text-danger h1 g">
+                            <span class="h6 fos">Youtube</span>
+                        </i>
+
+                    </a>
+
+                </div>
+    </section>
+    <!-- footer -->
+
+    <footer class="p-2 bg-dark text-white text-center position-relative">
+        <div class="container-fluid">
+            <p class="fs-6">Copyright &copy 2021 Swastik Videos</p>
+            <p class="fs-6 text-small">This website is Developed and managed by Harsh Vishwakarma
+                
+            </p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-2">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cotact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Contact us through this form we will respond you as soon as possible</p>
+                    <form action="/contact" method="post">
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">
+                                First Name
+                            </label>
+                            <input type="text" class="form-control" id="first-name" name="first">
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="col-form-label">
+                                Last Name
+                            </label>
+                            <input type="text" class="form-control" id="last-name" name="last">
+                        </div>
+                        <div class="mb-3">
+                            <label for="e-name" class="col-form-label">
+                                E-mail
+                            </label>
+                            <input type="text" class="form-control" id="e-mail" name="mail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="c-name" class="col-form-label">
+                                Contact Number
+                            </label>
+                            <input type="text" class="form-control" id="c-name" name="contact">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    {{!-- <button type="submit" class="btn btn-primary">Submit</button> --}}
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- <script src="js/m.js"></script> -->
+    <script>
+        //common reveal options to create reveal animations
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+
+        //target elements, and specify options to create reveal animations
+        ScrollReveal().reveal('.container ', { delay: 20, origin: 'left' });
+        ScrollReveal().reveal(' .b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8', { delay: 30, origin: 'top', interval: 50 });
+        ScrollReveal().reveal(' .n', { delay: 30, origin: 'left',interval: 180 });
+        ScrollReveal().reveal('.cf', { delay: 100, origin: 'right' });
+        ScrollReveal().reveal('.fb,.wp', { delay: 10, origin: 'bottom', interval: 100 });
+        ScrollReveal().reveal('.row .image, .sec-03 .image', { delay: 20, origin: 'top' });
+        ScrollReveal().reveal('.media-info li', { delay: 500, origin: 'left', interval: 200 });
+    </script>
+</body>
+
+</html>
