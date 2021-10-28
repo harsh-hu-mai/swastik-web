@@ -1,11 +1,12 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/swastikvideo",{
-   
-}).then(()=>{
-    console.log("connection sucess");
-}).catch((error)=>{
-   console.log(error);
-})
+mongoose.connect('mongodb+srv://Harsh9981:9981%40Harsh@cluster0.0kobt.mongodb.net/Swastik?retryWrites=true&w=majority',{
+        useUnifiedTopology: true,
+    useNewUrlParser: true,
+ }).then(()=>{
+         console.log("connection sucess");
+ }).catch((error)=>{
+        console.log(error);
+ })
 
 const userSchema = new mongoose.Schema({
     name: {
